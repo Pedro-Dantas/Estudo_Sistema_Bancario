@@ -1,0 +1,10 @@
+C:\Users\pedro.dantas\source\repos\Estudo\bin\Debug\Estudo.exe.config
+C:\Users\pedro.dantas\source\repos\Estudo\bin\Debug\Estudo.exe
+C:\Users\pedro.dantas\source\repos\Estudo\bin\Debug\Estudo.pdb
+C:\Users\pedro.dantas\source\repos\Estudo\obj\Debug\Estudo.csprojAssemblyReference.cache
+C:\Users\pedro.dantas\source\repos\Estudo\obj\Debug\Estudo.Form1.resources
+C:\Users\pedro.dantas\source\repos\Estudo\obj\Debug\Estudo.Properties.Resources.resources
+C:\Users\pedro.dantas\source\repos\Estudo\obj\Debug\Estudo.csproj.GenerateResource.cache
+C:\Users\pedro.dantas\source\repos\Estudo\obj\Debug\Estudo.csproj.CoreCompileInputs.cache
+C:\Users\pedro.dantas\source\repos\Estudo\obj\Debug\Estudo.exe
+C:\Users\pedro.dantas\source\repos\Estudo\obj\Debug\Estudo.pdb
