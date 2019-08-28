@@ -20,38 +20,20 @@ namespace Estudo
         private void Button1_Click(object sender, EventArgs e)
         {
             //instanciação da classe conta 
+
             Conta contaPedro = new Conta();
-            contaPedro.Titular = "pedro";
-            contaPedro.Numero = 1;
-            contaPedro.Saldo = 1000;
+            Cliente clientePedro = new Cliente();
+            //contaPedro.Titular = clientePedro; o construtor na classe Conta resolve essa linha
+            contaPedro.Titular.Nome = "Pedro Dantas";
+            contaPedro.Saldo = 1000;    
+            contaPedro.Deposita(300.0f);
+            contaPedro.Saca(110.10f);
+            MessageBox.Show(contaPedro.Titular.Nome +" tem um saldo de: "+ contaPedro.Saldo); 
+           
+        }
 
-            Conta contaEduardo = new Conta();
-            contaEduardo.Titular = "eduardo";
-            contaEduardo.Numero = 2;
-            contaEduardo.Saldo = 500;
-
-            contaPedro.Saldo += 200.0f;
-            contaEduardo.Saldo -= 300.0f;
-
-            MessageBox.Show("Pedro = " + contaPedro.Saldo.ToString());
-            MessageBox.Show("Eduardo = " + contaEduardo.Saldo.ToString());
-
-            /*contaPedro.Deposita(700.0f);
-            MessageBox.Show("A depósito foi de: " + contaPedro.Saldo.ToString());
-            contaPedro.Saca(50.0f);
-            MessageBox.Show("Saldo" + contaPedro.Saldo.ToString());*/
-
-
-            /*bool deuCerto = contaPedro.Saca(500.0f);
-
-            if (deuCerto)
-            {
-                MessageBox.Show("Saque realizado com sucesso: " + contaPedro.Saldo.ToString());
-            }
-            else
-            {
-                MessageBox.Show("Saldo insuficiente");
-            }*/
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
