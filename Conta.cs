@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Estudo
-{ 
+{
     public class Conta
     {
-        //atributos | get é ler e set é escrever
-        public float Saldo { get; private set; }
+        //propriedade get é ler e set é escrever, por si só e um metodo que acessa informação da classe
+        public float Saldo { get; set; }
         public int Numero { get; set; }
-        /*o atributo titular guarda uma referência(seta) para uma instância de Cliente 
+        /*o menbro campo titular guarda uma referência(seta) para uma instância de Cliente 
         (objeto na	memória).*/
         public Cliente Titular { get; set; }
 

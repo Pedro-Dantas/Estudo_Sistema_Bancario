@@ -10,14 +10,14 @@ namespace Estudo
     public class Cliente
     {
         public string Nome { get; set; }
-        public int idade { get; set; }
+        public int Idade { get; set; }
         public string Cpf { get; set; }
         public string Rg { get; set; }
         public string Endereco { get; set; }
 
         public bool Maioridade(int idade)
         {
-            if (this.idade >= 18)
+            if (this.Idade >= 18)
             {
                 return true;
             }

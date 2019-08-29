@@ -22,13 +22,16 @@ namespace Estudo
             //instanciação da classe conta 
 
             Conta contaPedro = new Conta();
-            Cliente clientePedro = new Cliente();
-            //contaPedro.Titular = clientePedro; o construtor na classe Conta resolve essa linha
-            contaPedro.Titular.Nome = "Pedro Dantas";
-            contaPedro.Saldo = 1000;    
+            Cliente clientePedro = new Cliente()
+            {
+                Nome = "Pedro",
+                Idade = 33,
+                Rg = "7777777777777"
+            };
+
             contaPedro.Deposita(300.0f);
             contaPedro.Saca(110.10f);
-            MessageBox.Show(contaPedro.Titular.Nome +" tem um saldo de: "+ contaPedro.Saldo); 
+            MessageBox.Show(clientePedro.Nome); 
            
         }
 
